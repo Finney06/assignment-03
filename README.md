@@ -40,6 +40,10 @@ The page will reload when you make changes.\
 
 
 
+## Live Demo
+
+ **View Live Site**: [https://finney06.github.io/assignment-03](https://finney06.github.io/assignment-03)
+
 ## Getting Started### `npm run build`
 
 
