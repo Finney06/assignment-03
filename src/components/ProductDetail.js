@@ -6,6 +6,7 @@ import image3 from '../assets/images/image-3.png';
 import './ProductDetail.css';
 
 function ProductDetail({ onAddToCart }) {
+  // Featured product data
   const featuredProduct = {
     name: 'Samurai King Resting',
     price: 119.99,
@@ -16,10 +17,13 @@ function ProductDetail({ onAddToCart }) {
   return (
     <section className="product-detail">
       <div className="container">
-        <h1 className="product-title">Samurai King Resting</h1>
-        <button className="add-to-cart-btn" onClick={() => onAddToCart(featuredProduct)}>
-          ADD TO CART
-        </button>
+        {/* Title and Add to Cart button side by side */}
+        <div className="product-header">
+          <h1 className="product-title">Samurai King Resting</h1>
+          <button className="add-to-cart-btn" onClick={() => onAddToCart(featuredProduct)}>
+            ADD TO CART
+          </button>
+        </div>
         
         <div className="product-image-wrapper">
           <img src={heroImage} alt="Samurai King Resting" className="product-image" />

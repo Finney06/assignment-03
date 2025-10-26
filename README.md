@@ -1,102 +1,54 @@
-# Assignment 03 - BEJAMAS Photography Shop (React)# Getting Started with Create React App
+# Assignment 03 - BEJAMAS Photography Shop (React)
 
+This is a React.js implementation of the BEJAMAS Photography Shop from Assignment 02.
 
+## Features
 
-This is a React.js implementation of the BEJAMAS Photography Shop from Assignment 02.This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-
-
-## Features## Available Scripts
-
-
-
-- **Product Gallery**: Browse through a collection of premium photographyIn the project directory, you can run:
-
+- **Product Gallery**: Browse through a collection of premium photography
 - **Shopping Cart**: Add products to cart with persistent storage (localStorage)
-
-- **Filters**: Filter products by category and price range### `npm start`
-
+- **Filters**: Filter products by category and price range
 - **Sorting**: Sort products by price, name, or date
-
-- **Responsive Design**: Works on desktop, tablet, and mobile devicesRuns the app in the development mode.\
-
-- **Featured Product**: Hero section with "Photo of the day"Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
+- **Responsive Design**: Works on desktop, tablet, and mobile devices
+- **Featured Product**: Hero section with "Photo of the day"
 - **Product Recommendations**: "People also buy" section
 
-The page will reload when you make changes.\
+## Technologies Used
 
-## Technologies UsedYou may also see any lint errors in the console.
-
-
-
-- React.js### `npm test`
-
+- React.js
 - CSS3
-
-- LocalStorage for cart persistenceLaunches the test runner in the interactive watch mode.\
-
-- React Hooks (useState, useEffect, useMemo, useCallback)See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-
+- LocalStorage for cart persistence
+- React Hooks (useState, useEffect, useMemo, useCallback)
 
 ## Live Demo
 
- **View Live Site**: [https://finney06.github.io/assignment-03](https://finney06.github.io/assignment-03)
+**View Live Site**: [https://finney06.github.io/assignment-03](https://finney06.github.io/assignment-03)
 
-## Getting Started### `npm run build`
+## Getting Started
 
-
-
-### PrerequisitesBuilds the app for production to the `build` folder.\
-
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
 - Node.js (v14 or higher)
-
-- npm or yarnThe build is minified and the filenames include the hashes.\
-
-Your app is ready to be deployed!
+- npm or yarn
 
 ### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 1. Clone the repository:
-
-```bash### `npm run eject`
-
+```bash
 git clone https://github.com/Finney06/assignment-03.git
-
-cd assignment-03**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
+cd assignment-03
 ```
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 2. Install dependencies:
-
-```bashInstead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-npm install
-
-```You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-
-
-3. Start the development server:## Learn More
-
 ```bash
-
-npm startYou can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
+npm install
 ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Start the development server:
+```bash
+npm start
+```
 
 4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-### Code Splitting
 
 ## Available Scripts
 

@@ -6,6 +6,7 @@ function CartModal({ isOpen, cart, onClose, onRemoveItem, onClearCart }) {
 
   return (
     <>
+      {/* Overlay to close modal when clicking outside */}
       <div className="modal-overlay" onClick={onClose}></div>
       <div className={`cart-modal ${isOpen ? 'active' : ''}`}>
         <div className="cart-modal-content">

@@ -4,6 +4,7 @@
     background-color: #fafafa;
 }
 
+/* Header with title and sorting */
 .gallery-header {
     display: flex;
     justify-content: space-between;

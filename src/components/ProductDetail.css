@@ -3,9 +3,17 @@
     padding: 40px 0;
 }
 
+/* Header with title and cart button */
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 .product-title {
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .add-to-cart-btn {
@@ -16,8 +24,8 @@
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
-    margin-bottom: 30px;
     letter-spacing: 1px;
+    transition: background-color 0.3s ease;
 }
 
 .add-to-cart-btn:hover {
@@ -35,9 +43,10 @@
     display: block;
 }
 
+/* Label positioned at bottom left instead of top */
 .photo-label {
     position: absolute;
-    top: 20px;
+    bottom: 20px;
     left: 20px;
     background-color: #fff;
     padding: 8px 16px;
@@ -75,6 +84,7 @@
     color: #999;
 }
 
+/* People also buy section */
 .people-also-buy h2 {
     font-size: 18px;
     margin-bottom: 20px;

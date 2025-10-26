@@ -26,6 +26,7 @@ function App() {
     const existingItem = cart.find(item => item.name === product.name);
     
     if (existingItem) {
+      // Update quantity if item already exists
       setCart(cart.map(item =>
         item.name === product.name
           ? { ...item, quantity: item.quantity + 1 }

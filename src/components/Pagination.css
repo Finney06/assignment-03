@@ -1,4 +1,4 @@
-/* Pagination */
+/* Pagination controls */
 .pagination {
     display: flex;
     justify-content: center;
@@ -20,6 +20,7 @@
     background-color: #f5f5f5;
 }
 
+/* Active page styling */
 .page-btn.active {
     background-color: #000;
     color: #fff;

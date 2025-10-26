@@ -1,4 +1,4 @@
-/* Header */
+/* Header styles */
 .header {
     border-bottom: 1px solid #e0e0e0;
     padding: 20px 0;
@@ -16,6 +16,7 @@
     letter-spacing: 1px;
 }
 
+/* Shopping cart icon */
 .cart-icon {
     position: relative;
     cursor: pointer;
@@ -27,6 +28,7 @@
     cursor: pointer;
 }
 
+/* Badge showing item count */
 .cart-count {
     position: absolute;
     top: -8px;
